@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5f219ec053.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>codebugs</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <a class="logo" href="#">SHOPLIFY</a>
+            <span class="cart-icon"
+              ><i class="fa-solid fa-cart-shopping"></i>
+              <span class="product-count">0</span>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main -->
+      <main class="container">
+        <h1 class="main-title">BUY ANY THING YOU LIKE HERE...</h1>
+        <div class="product-action">
+          <div class="product-action-filter">
+            <label for="filter">Filter product</label>
+            <select id="filter">
+              <option value="all">all</option>
+            </select>
+          </div>
+          <input
+            type="text"
+            id="search-bar"
+            class="product-action-search"
+            placeholder="Search your product..."
+          />
+        </div>
+        <!-- Main -->
+        <section class="product-container">
+          <ul class="product-list">
+            <!-- <li class="product-item">
+              <div class="product-item-image">
+                <img src="https://source.unsplash.com/random" alt="" />
+              </div>
+              <div class="product-item-info">
+                <span class="product-category">category</span>
+                <h1>console ps5</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta aliquid nobis sequi. Aliquam, facilis voluptatem fugiat
+                  doloribus voluptate eos omnis accusantium repudiandae
+                  aspernatur. Recusandae corporis neque vel necessitatibus.
+                  Inventore, libero?
+                </p>
+                <span class="product-price">27$</span>
+              </div>
+              <div class="product-item-meta">
+                <div class="group">
+                  <span>count</span>
+                  <span><i class="fa-solid fa-user"></i></span>
+                </div>
+                <div class="group">
+                  <span>rating</span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <button class="add-product">add to cart</button>
+            </li> -->
+          </ul>
+        </section>
+      </main>
+
+      <!-- Modal -->
+      <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <span class="modal-close">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+          <div class="modal-main">
+            <h1 class="modal-title">your bill</h1>
+            <ul class="cart-list">
+              <!-- <li class="cart-item">
+                <div class="cart-item-info">
+                  <div class="cart-image">
+                    <img src="https://source.unsplash.com/random" alt="" />
+                  </div>
+                  <div class="col">
+                    <h1>console ps5</h1>
+                    <span>34$</span>
+                  </div>
+                </div>
+                <div class="cart-item-action">
+                  <span>-</span>
+                  <small>1</small>
+                  <span>+</span>
+                </div>
+              </li> -->
+            </ul>
+            <div class="cart-bottom">
+              <div class="cart-total">348$</div>
+              <button class="checkout">checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
